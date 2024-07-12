@@ -1,0 +1,167 @@
+* {
+    font-family: 'Gill Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+section{
+    display: block;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+
+#titlediv {
+    background-image: url("assets/main_bg.jpg") no-repeat 57%/cover;
+    background-repeat: no-repeat;
+    background-position: 57%;
+    padding-top: 205px;
+    background-size: cover;
+    height: 670px;
+}
+
+#portbtn {
+    height: 45px;
+    background: #ffa501;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, .15);
+    padding: 12px 25px;
+    border: none;
+
+}
+
+#portlink {
+    color: #000;
+    cursor: pointer;
+    font-weight: 700;
+    text-decoration: none;
+    background-color: transparent;
+
+}
+
+#aboutbtn {
+    background: transparent;
+    border: none;
+}
+
+#aboutlink {
+    color: #000;
+    cursor: pointer;
+    font-weight: 700;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+#mypic {
+    /* height: 500px;
+    width: 100%; */
+    width: 100%;
+    height: 450px;
+    -o-object-fit: contain;
+    object-fit: contain;
+
+}
+.divider{
+    width: 60px;
+    height: 3px;
+    background-color: #ffa501;
+}
+.divider2 {
+    width: 60px;
+    height: 3px;
+    background-color: #ffa501;
+margin: 0 auto;
+
+}
+
+#sect {
+    padding-top: 100px;
+}
+
+.round {
+    width: 30px;
+    height: 30px;
+    background-color: #ffa501;
+    border-radius: 100%;
+    left: -2px;
+    top: 30%;
+    transform: translateX(-30%);
+
+}
+.box{
+    
+    padding: 30px 30px 25px 30px;
+    box-sizing: border-box;
+    text-align: start;
+ 
+    
+    display: grid;
+   
+}
+#large-icons{
+    height: 60px;
+    width: 80px;
+    margin: 0 auto;
+}
+.skill-items{
+    display: flex;
+    justify-content: space-between;
+    
+    
+  
+}
+.card{
+    border-radius: 6px;
+/* background: linear-gradient(145deg, #fafafa, #fafafa); */
+/* box-shadow:  5px 5px 12px #a4a4a4,
+             -5px -5px 12px #ffffff; */
+             margin-left: 50px;
+             
+}
+#imgsize{
+height: 60px;
+}
+#gitimg{
+    height: 60px;
+    width: 60px;
+    margin: 0 auto;
+}
+#sect2{
+    padding-top: 100px;
+}
+#sneaker-pic,#web-pic{
+    height: 224px;
+    /* margin-left: 200px; */
+    padding: 0px;
+    width: 65%;
+    
+}
+
+img.pic1:hover{
+    
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+    transition: .6s all;
+    
+}
+#sect3{
+    padding-top: 200px;
+    padding-bottom: 100px;
+
+}
+.icon{
+    margin-right: 25px;
+    height: 30px;
+}
+.tel-no,.email{
+    text-decoration: none;
+    color: #000;
+    
+}
+a.tel-no:hover,a.email:hover{
+    text-decoration: underline;
+}
